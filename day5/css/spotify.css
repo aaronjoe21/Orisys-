@@ -1,0 +1,27 @@
+table,th,tr,td {
+    border: 3px solid black;
+    border-collapse: collapse;
+    background-color: orange;
+}
+table {
+    width: 100%;
+}
+td {
+    padding: 20px;
+    text-align: center;
+}
+body {
+    background-color:brown;
+}
+td:nth-child(1) {
+    width: 50px;
+}
+td:nth-child(2) {
+    width: 700px;
+}
+td:nth-child(3) {
+    width: 60px;
+}
+td:nth-child(4) {
+    width: 600px;
+}
